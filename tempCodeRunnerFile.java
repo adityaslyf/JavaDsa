@@ -1,1 +1,1 @@
-0
+System.out.println(); // Move to the next row

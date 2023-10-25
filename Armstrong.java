@@ -1,18 +1,20 @@
-import java.util.Scanner;
+
 
 public class Armstrong {
   public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
-    int n = in.nextInt();
+
+    for(int n =100; n <=999; n++){
+  
+    // int n = in.nextInt();
     int count = 0;
     int sum=0;
     int originalN = n;
    
-    while (n > 0) {
-      n = n / 10;
-      
-      count++;
-    }
+     while (n > 0) {
+       n = n / 10;
+  
+       count++;
+     }
 
     n= originalN;
     while (n > 0) {
@@ -24,11 +26,14 @@ public class Armstrong {
       n = n / 10;
     }
    
-    if(sum == originalN){
-      System.out.println("num is armstrong");
-    }else{
-      System.out.println("num is not armstrong");
+     if(sum == originalN){
+       System.out.println(originalN);}
+    //  }else{
+    //    System.out.println("num is not armstrong");
+    //  }
+    
     }
+  }
 
   }
-}
+
