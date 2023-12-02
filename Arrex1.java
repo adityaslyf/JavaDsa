@@ -7,10 +7,8 @@ public class Arrex1 {
         int[] roll = new int[5];
 
         for (int i = 0; i < roll.length; i++) {
-            System.out.println("Enter roll no");
-            roll[i] = in.nextInt();
+roll[i] = in.nextInt();
+             }    
+            System.out.println(Arrays.toString(roll));
+            }
         }
-
-        System.out.println(Arrays.toString(roll)); 
-    }
-}
